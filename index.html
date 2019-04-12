@@ -7,39 +7,93 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>bar 44 lviv</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="reserve.html" type="text/css" />
 </head>
 
 <body>
     <header>
-        <ul class="menu">
-            <li><a href="#" class="active">ласкаво просимо</a></li>
-            <li><a href="#">зарезервувати</a></li>
-            <li><a href="#">про нас</a></li>
-            <li><a href="#">коктейлі</a></li>
-            <li><a href="#">зв'язок з нами</a></li>
-        </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">44 bar lviv</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Ласкаво просимо<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reserve.html">Забронювати столик</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Про нас</a>
+                    </li>
+                   <li class="nav-item">
+                        <a class="nav-link" href="#">Коктейлі</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Зв'язок з нами</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
         <h1 class="banner">44 bar lviv</h1>
         <h5 class=banner-bar>тут прикольний підпис, який я не придумав</h5>
-        <div class="icon-bar">
-            <img class="facebook" src="img/facebook-logo.jpg" alt="facebook">
-            <img class="instagram" src="img/instagram-logo.jpg" alt="Instagram">
-        </div>
+        <li class="icon-bar">
+        </li>
     </header>
     <main>
         <div>
             <section>
                 <div>
-                    <h2>резервація</h2>
+                    <h2 class="reserv">бронювання</h2>
                     <p>Ми з повагою ставимось до вашого часу, тому щоб уникнути якихось непорозумінь, резервуйте столик не менш ніж за годину до вашого приходу.</p>
-                    <h4><a href="#">заповнити форму</a></h4>
-                    <img src="img/block-2-groovy.jpg" alt="" />
+                    <button type="button" class="btn btn-warning"><a href="reserve.html">забронювати столик</a></button>
+                    <img src="img/caorusel/bar-front-1.jpg" alt="" width="100%" class="groovy" />
                 </div>
                 <div>
                     <h2>хто ми такі</h2>
                     <p> 44 BAR LVIV затишне місце в центрі міста Лева - це оазис тепла, таємниці та магії, де на протязі вечора бармени міксуюють смачні напої, а львів'яни та гості міста можуть насолоджуватися славним почуттям відключення від зовнішнього
                         світу, гостинністю,дружньою атмосферою, ну і звичайно ж чудовими напоями. </p>
-                    <img src="img/bar-main-hall.jpg" alt="main hall" />
-                    <img src="img/vlad.jpg" alt="main hall" />
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/vlad.jpg" class="d-block w-100" alt="Vlad Shelest">
+    </div>
+    <div class="carousel-item">
+      <img src="img/caorusel/bar-front-1.jpg" class="d-block w-100" alt="Front bar">
+    </div>
+    <div class="carousel-item">
+      <img src="img/caorusel/bar-front-2.jpg" class="d-block w-100" alt="Front bar">
+    </div>
+    <div class="carousel-item">
+      <img src="img/caorusel/bar-front.jpg" class="d-block w-100" alt="Front bar">
+    </div>
+    <div class="carousel-item">
+      <img src="img/caorusel/bar-hall.jpg" class="d-block w-100" alt="Hall">
+    </div>
+    <div class="carousel-item">
+      <img src="img/caorusel/bar-hall-1.jpg" class="d-block w-100" alt="Hall">
+    </div>
+    <div class="carousel-item">
+      <img src="img/caorusel/bar-kitchen.jpg" class="d-block w-100" alt="Kitchen">
+    </div>
+    <div class="carousel-item">
+      <img src="img/caorusel/bloody-mary.jpg" class="d-block w-100" alt="Bloody mary">
+    </div>
+    <div class="carousel-item">
+      <img src="img/caorusel/cocktail-punk.jpg" class="d-block w-100" alt="Cocktail Punk">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
                 </div>
                 <div>
                     <h2>коктейлі</h2>
@@ -47,60 +101,42 @@
                     <h4>
                         <a href="#">переглянути коктейльну карту можна тут</a>
                     </h4>
-                    <img src="img/block-3-paloma.jpg" alt="" />
+                    <img src="img/block-3-paloma.jpg" alt="" width="100%" />
                 </div>
                 <div>
                     <h2>зв'язатись з нами</h2>
-                    <form>
-                        <p><label for="client-name">Ім'я: </label>
-                            <label>
-            <input id="client-name" type="text" placeholder="Ім'я" name="client-name" required>
-           </label></p>
-                        <p><label for="surname">Прізвище: </label>
-                            <label>
-            <input id="surname" type="text" placeholder="Прізвище" name="surname" required>
-           </label></p>
-                        <p><label>Email: <input id="Email" type="email" placeholder="Email" name="client-email" required>
-            </label></p>
-                        <p><label>Стать:</label>
-                            <label>
-                <input type="radio" name="gender" value="male">чол
-            </label>
-                            <label>
-                <input type="radio" name="gender" value="female"> жін 
-            </label>
-                            <label>
-                <input type="radio" name="gender" value="other"> інше 
-            </label></p>
-                        <br/>
-                        <input type="submit" name="Надіслати">
-                    </form>
-                    <div>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.992237367557!2d24.029658515709478!3d49.842603379396095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6d08abdb97%3A0x5cc2009c67f6066c!2s44+Tarte+%26+Flambe+Bar!5e0!3m2!1sen!2sua!4v1553523399515"
-                            width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                    </div>
-                </div>
-                <footer>
-                    <hr>
-                    <table>
-                        <tr>
-                            <th>Адреса:</th>
-                            <td>Львів, площа Ринок 44</td>
-                        </tr>
-                        <tr>
-                            <th>Телефон</th>
-                            <td>38095719999</td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">yaroslav.skulskyi@gmail.com</td>
-                        </tr>
-                    </table>
-                    <hr>Powered by Yaroslav Skulskyi
-                    <hr>2019
-                </footer>
+                    <footer>
+                        <hr>
+                        <table>
+                            <tr>
+                                <th>Адреса:</th>
+                                <td>Львів, площа Ринок 44</td>
+                            </tr>
+                            <tr>
+                                <th>Телефон</th>
+                                <td>38095719999</td>
+                            </tr>
+                            <a href="https://www.facebook.com/44barlviv/">
+                             <img class="facebook" src="img/facebook-logo.jpg" alt="facebook">
+                         </a>
+                            <a href="https://www.instagram.com/44barlviv/?hl=en">
+                         <img class="instagram" src="img/instagram-logo.jpg" alt="Instagram">
+                        </a>
+                            <tr>
+                                <td colspan="2">yaroslav.skulskyi@gmail.com</td>
+                            </tr>
+                        </table>
+                        <hr>Powered by Yaroslav Skulskyi
+                        <hr>2019
+                    </footer>
             </section>
-        </div>
+            </div>
     </main>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
+
 
 </html>

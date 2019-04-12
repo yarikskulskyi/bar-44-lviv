@@ -1,5 +1,5 @@
 :root {
-    --main-color: red;
+    --main-color: ;
     --secondary-color: black;
     font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
 }
@@ -8,6 +8,11 @@
 body {
     max-width: 980px;
     margin: auto;
+    
+    
+}
+main {
+    text-align: center;
 }
 
 h1, h2, h3, p, div, nav {
@@ -20,33 +25,14 @@ header {
     min-height: 500px;
     background-size: cover;
     background-position: center;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    opacity: .8;
+   
 }
 
-div .icon-bar {
-  width: 32px;
-  height: 32px;
-  margin: 32px;
-  font-size: 30px;
-  text-decoration: none;
-    
+.btn {
+    margin-bottom:30px;
 }
-.facebook {
-  padding: 0px;
-  margin: 0px;
-  font-size: 30px;
-  width: 32px;
-  text-align: center;
-  text-decoration: none;
-    
-}
-.instagram {
-  padding: 0px;
-  font-size: 30px;
-  width: 32px;
+.reserv {
+    margin-top: 30px;
 }
 .menu a {
   float: left;
@@ -67,6 +53,10 @@ header .menu a .active {
   background-color: #f4a4a4;
   color: black;
   opacity: .3;
+}
+.header-form {
+    text-align: center;
+    margin-top: 50px;
 }
 header .banner {
     color: #f2f2f2;;
@@ -93,8 +83,21 @@ header .menu li {
     display: inline;
     list-style-type: none;
 }
+form {
+    margin: 50px;
+}
 
 
+footer .instagram {
+ width: 32px;
+ height: 32px;
+    
+}
+footer .facebook {
+ width: 32px;
+ height: 32px;
+    
+}
     
     
     
