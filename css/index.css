@@ -1,21 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Russo+One|Vollkorn');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
 :root {
-    --main-color: ;
-    --secondary-color: black;
-    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+    display: flex;
+    justify-content: center;
 }
+
 
 
 body {
     max-width: 980px;
     margin: auto;
-    
-    
+    text-align: center;
 }
+
 main {
     text-align: center;
 }
 
-h1, h2, h3, p, div, nav {
+h1,
+h2,
+h3,
+p,
+div,
+nav {
     margin: 0;
     padding: 0;
 }
@@ -25,55 +33,68 @@ header {
     min-height: 500px;
     background-size: cover;
     background-position: center;
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .btn {
-    margin-bottom:30px;
+    margin-bottom: 30px;
 }
+
 .reserv {
     margin-top: 30px;
 }
+
 .menu a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 14px;
-  border-radius: 20px;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 20px;
 }
+
 .menu a:hover {
-  background-color: #ddd;
-  color: black;
-  opacity: .3;
-  border-radius: 20px;
+    background-color: #ddd;
+    color: black;
+    opacity: .3;
+    border-radius: 20px;
 }
+
 header .menu a .active {
-  background-color: #f4a4a4;
-  color: black;
-  opacity: .3;
+    background-color: #f4a4a4;
+    color: black;
+    opacity: .3;
 }
+
 .header-form {
     text-align: center;
     margin-top: 50px;
 }
+
 header .banner {
-    color: #f2f2f2;;
+    color: #f2f2f2;
+    ;
     font-size: 55px;
-    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
 }
+
 header .banner {
     margin-top: 40px;
     margin-left: 120px;
-    
+
 }
+
 header .banner-bar {
-    color:white;
+    color: white;
     font-size: 10px;
     margin-left: 130px;
     padding-top: 0px;
 }
+
 header .menu {
     padding: 3px;
     margin-left: 10px;
@@ -83,27 +104,40 @@ header .menu li {
     display: inline;
     list-style-type: none;
 }
-form {
-    margin: 50px;
+
+/*form {
+  background-image: url(../img/form-image.jpg);
+  padding: 0px;
+  padding-left: 150px;
+  padding-right: 150px;
+  background-size: 100%;
 }
 
+form .form-group {
+  background: #f44242;
+  margin: auto;
+  color: white;
+  padding: 20px;
+  max-width: 600px;
+}
+*/
+
+.logo {
+    width: 50px;
+}
 
 footer .instagram {
- width: 32px;
- height: 32px;
-    
+    width: 32px;
+    height: 32px;
+
 }
+
 footer .facebook {
- width: 32px;
- height: 32px;
-    
+    width: 32px;
+    height: 32px;
+
 }
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+.color-button {
+    background-color: #f44242;
+}
